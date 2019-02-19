@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     background: url(../img/heroBg.jpg);
+     background-size: cover;
+}
+
+.slider {
+     width: 100%;
+     position: absolute;
+     top: 54%;
+     transform: translateY(-50%);
+}
+
+.slick-slide:focus {
+     outline: none;
+}
+
+.slick-slide .img-principal  {
+     width: 60%;
+     cursor: not-allowed;	
+}
+
+.slick-slide {
+     transition: all ease-in-out 1s;
+     opacity: .3;
+}
+
+.slick-active {
+     opacity: .3;
+}
+
+.slick-current {
+     opacity: 1;
+}
+
+h3 {
+     font-family: 'Roboto Mono', monospace;
+     font-size: 20px;
+     color: #00a98f;
+     text-transform: uppercase;
+     margin-bottom: 0;
+     cursor: url('../img/cursor.png'), auto;	
+}
+
+p {
+     margin-top: 4px;
+     font-family: 'Chewy', cursive;
+     font-size: 20px;
+     color: #ff4c4c;
+     text-transform: uppercase;
+}
+i{
+     color: white;
+     font-family: 'Chewy', cursive;  
+     font-size: 17px;
+}
+.logo {
+     position: absolute;
+     margin: 2em;
+     float: left;
+}
+
+.menu-btn {
+     position: relative;
+     float: right;
+     margin: 2em;
+}
+
+.bottom {
+     position: absolute;
+     bottom: 1em;
+     left: 2em;
+}
+.bottom2 {
+     position: absolute;
+     bottom: 1em;
+     right: 2em;
+     float: right;
+     cursor: pointer;
+}
+/*.bottom p {
+     color: #fff;
+     font-weight: 400;
+     background: #f12929;
+}
+*/

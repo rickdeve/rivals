@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+
+nav{
+  width: 100%;
+  position: fixed;
+  top:50px;
+  text-align:center;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:white;
+  margin:0 15px;
+  font-size:18px;
+  letter-spacing:5px;
+  position:relative;
+  display:inline-block;
+  
+  
+}
+nav a:hover
+{
+  cursor: url('../img/cursor.png'), auto;	
+    color: #00a98f;
+    text-decoration: none;
+}
+
+
