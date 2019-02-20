@@ -17,7 +17,7 @@
 <body>
 <div class="back"></div>
 <nav>
-  <a href="#">Inicio</a>
+  <a href="#">Inicios</a>
   <a id="servidor"href="#">Servidor</a>
   <a id="stats" href="#">Stats</a>
   <a id="contacto" href="#">Contacto</a>
