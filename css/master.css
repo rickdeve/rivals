@@ -21,7 +21,6 @@ html, body {
 }
 
 .slick-slide .img-principal  {
-     width: 60%;
      cursor: not-allowed;	
 }
 
@@ -41,7 +40,7 @@ html, body {
 h3 {
      font-family: 'Roboto Mono', monospace;
      font-size: 20px;
-     color: #00a98f;
+     color: rgb(233, 169, 229);
      text-transform: uppercase;
      margin-bottom: 0;
      cursor: url('../img/cursor.png'), auto;	
